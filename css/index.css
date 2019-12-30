@@ -5,6 +5,7 @@ body {
 .cabecalho-principal{
 	background: rgb(92,37,127);
 	padding: 25px 0;
+
 }
 .cabecalho-principal .conteiner{
 	width: 90%;
@@ -56,4 +57,12 @@ body {
 	font-size: 60px;
 	font-weight: bold;
 }
-
+#menu{
+	margin-top: 0px;
+}
+.button-subir-tela{
+	position: fixed;
+	z-index: 1000;
+	right: 5%; 
+    bottom: 5%;
+}
