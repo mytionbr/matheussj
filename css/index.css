@@ -66,3 +66,29 @@ body {
 	right: 5%; 
     bottom: 5%;
 }
+.sobre-principal{
+	
+	justify-content: space-around;
+
+}
+.sobre-principal .conteiner{
+	width: 90%;
+	display: flex;
+	background: rgb(147,60,204);
+	margin: 0 auto;
+	justify-content: space-around;
+	padding: 20px 0;
+	
+}
+.sobre-principal .conteiner .sobre-principal-conteudo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 70%;
+	align-items: center;
+
+}
+.sobre-principal .conteiner .sobre-principal-conteudo h1{
+	font-size: 30px;
+	font-weight: bold;
+}
