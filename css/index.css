@@ -14,9 +14,22 @@ body {
 	justify-content:space-between;
 	color: white;
 }
-.cabecalho-principal-titulo{
-	font-size: 40px;
+.cabecalho-principal .conteiner a{
+	color: white;
+	text-decoration: none;
 }
+.cabecalho-principal-titulo{
+	font-family: 'Indie Flower', cursive;
+	font-size: 60px;
+	
+}
+
+.cabecalho-principal .conteiner .cabecalho-principal-menu a:hover{
+	color: rgb(214,151,255);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .cabecalho-principal-menu ul{
 	display: flex;
 	justify-content:space-between;
