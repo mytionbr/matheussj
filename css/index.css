@@ -1,0 +1,28 @@
+body {
+	background-color: rgb(184,75,255);
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+.cabecalho-principal{
+	background: rgb(92,37,127);
+	padding: 25px 0;
+}
+.cabecalho-principal .conteiner{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	color: white;
+}
+.cabecalho-principal-titulo{
+	font-size: 40px;
+}
+.cabecalho-principal-menu ul{
+	display: flex;
+	justify-content:space-between;
+	font-size: 22px;
+}
+.cabecalho-principal-menu{
+	width: 50%;
+}
+
