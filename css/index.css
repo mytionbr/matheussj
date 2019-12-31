@@ -94,7 +94,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 /* formatação das sessões de conteudo*/
-.experiencia-principal .conteiner, .conhecimentos-principal .conteiner{
+.experiencia-principal .conteiner, .conhecimentos-principal .conteiner,.formacoes-principal .conteiner{
 	width: 90%;
 	display: flex;
 	background: rgb(147,60,204);
@@ -103,7 +103,7 @@ body {
 	padding: 20px 0;
 
 }
-.experiencia-principal-conteudo, .conhecimentos-principal-conteudo{
+.experiencia-principal-conteudo, .conhecimentos-principal-conteudo,.formacoes-principal-conteudo{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
