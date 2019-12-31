@@ -41,7 +41,7 @@ body {
 }
 .apresentacao .conteiner{
 	width: 90%;
-	margin: 0 auto;
+	margin: 50px auto;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -51,7 +51,7 @@ body {
 	width: 200px;
 	height: 250px;
 }
-.apresentacao .apresentacao-titulo{
+.apresentacao-titulo{
 	font-family: 'Dancing Script', cursive;
 	padding: 10px 0;
 	font-size: 60px;
@@ -86,9 +86,30 @@ body {
 	justify-content: space-around;
 	width: 70%;
 	align-items: center;
-
+	text-align: justify;
 }
-.sobre-principal .conteiner .sobre-principal-conteudo h1{
+.principal-titulo {
 	font-size: 30px;
 	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+.experiencia-principal .conteiner{
+	width: 90%;
+	display: flex;
+	background: rgb(147,60,204);
+	margin: 50px auto;
+	justify-content: space-around;
+	padding: 20px 0;
+
+}
+.experiencia-principal-conteudo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 70%;
+	align-items: center;
+	text-align: justify;
+}
+.conteudo-texto{
+	font-family: 'Roboto', sans-serif;
 }
