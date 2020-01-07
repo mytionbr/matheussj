@@ -1,9 +1,9 @@
 body {
-	background-color: rgb(184,75,255);
+	background-color: rgb(242,242,242);
 	font-family: 'Open Sans',Arial,sans-serif;
 }
 .cabecalho-principal{
-	background: rgb(92,37,127);
+	background: rgb(85,109,115);
 	padding: 25px 0;
 
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .cabecalho-principal .conteiner .cabecalho-principal-menu a:hover{
-	color: rgb(214,151,255);
+	color: rgb(164,189,191);
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -74,7 +74,7 @@ body {
 .sobre-principal .conteiner{
 	width: 90%;
 	display: flex;
-	background: rgb(147,60,204);
+	background: rgb(138,161,166);
 	margin: 0 auto;
 	justify-content: space-around;
 	padding: 20px 0;
@@ -97,7 +97,7 @@ body {
 .experiencia-principal .conteiner, .conhecimentos-principal .conteiner,.formacoes-principal .conteiner{
 	width: 90%;
 	display: flex;
-	background: rgb(147,60,204);
+	background: rgb(138,161,166);
 	margin: 50px auto;
 	justify-content: space-around;
 	padding: 20px 0;

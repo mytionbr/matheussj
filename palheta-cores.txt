@@ -1,7 +1,7 @@
 Essa é o RGB de cada cor da palheta  de cores do projeto (palheta-cores.png)
 da cor da esquerda para a direita
-(92,37,127)
-(214,151,255)
-(184,75,255)
-(107,76,127)
-(147,60,204)
+(242,242,242)
+(85,109,115)
+(138,161,166)
+(164,189,191)
+(2,115,115)
