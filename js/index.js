@@ -11,3 +11,4 @@
 		}
 
 		escrever(texto, div);
+		
