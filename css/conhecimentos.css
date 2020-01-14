@@ -1,0 +1,158 @@
+.conhecimentos{
+	display: flex;
+
+}
+.conhecimentos .conteiner{
+	height: 600px;
+	width: 80%;
+	background-color: rgb(138,161,166);
+	margin: 20px auto;
+
+}
+
+.lista-menu{
+	margin: 5% auto;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+.btn-filtro{
+	height: 50px;
+	width: 170px;
+	padding: 5px;
+	background-color: rgb(242,242,242);
+	border: none;
+	font-size:17px; 
+}
+
+.btn-focus{
+	color: rgb(2,115,115);
+	outline-style:none;
+	font-weight: bold;
+}
+.listaConhecimento{
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.linhaConhecimento{
+	margin: 10px auto;
+	font-size: 25px;
+	padding: 10px 20px;
+	width: 90%;
+	background-color:rgba(242,242,242,0.7); 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+
+}
+.li{
+	list-style-type: none;
+}
+.sumario{
+	display: flex;
+	font-size: 16px;
+	color: darkred;
+	width: 70%;
+	justify-content: space-between;
+	padding: 10px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+.sumario ul{
+	display: flex;
+	margin: 0 auto;
+}
+.sumario li{
+	padding: 0 10px;
+}
+/*modal*/
+
+.modal{
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 10%;
+	
+
+}
+.modal .conteiner{
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	background-color: rgb(242,242,242);
+	
+	
+}
+.invisivel{
+	display: none;
+
+}
+/**/
+.overlay{
+	transition:all 0.3s;
+	background: rgba(0,0,0,.7);
+}
+.titulo-modal{
+	width: 95%;
+	display: flex;
+	font-size: 26px;
+	justify-content: space-between;
+	padding: 20px 10px;
+	font-weight: bold;
+	border-bottom: solid rgb(0,0,0);
+}
+.titulo-modal button{
+	width: 100px;
+	height: 30px;
+	align-items: center;
+	background-color:rgb(220,20,60); 
+	border: none;
+	outline-style:none;
+	font-weight: bold;
+	color:rgb(242,242,242);
+
+}
+.listaHabilidades li{
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+.btnModal{
+	border: none;
+	font-size: 20px;
+	background-color:rgb(242,242,242); 
+	padding: 10px;
+	transition: all 1s; 
+}
+.btnModal:hover{
+	color: white;
+	background-color:rgb(85,109,115); 
+}
+
+.teste{
+	
+	width:400px;
+	height:400px;
+    background-color: red;
+}
+.fundo{
+	width: 100%;
+	height: 100%;
+	top:0;
+	position: fixed;
+	background: rgba(0,0,0,0.7);
+}
+.conteiner-titulo-conhecimento{
+	display: flex;
+	width: 100%;
+
+}
+.titulo-conhecimento{
+	padding: 40px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
