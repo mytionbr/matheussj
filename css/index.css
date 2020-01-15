@@ -119,8 +119,8 @@ body {
 	width: 99%;
 	display: flex;
 	background: rgb(9,109,134);
-	margin: 0 auto;
 	justify-content: space-around;
+
 	
 	
 }
@@ -138,8 +138,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
 }
+
+
 /* formatação das sessões de conteudo*/
-.experiencia-principal .conteiner,.formacoes-principal .conteiner{
+.formacoes-principal .conteiner{
 	width: 90%;
 	display: flex;
 	background: rgb(138,161,166);
@@ -148,7 +150,7 @@ body {
 	padding: 20px 0;
 
 }
-.experiencia-principal-conteudo, .formacoes-principal-conteudo{
+.formacoes-principal-conteudo{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;

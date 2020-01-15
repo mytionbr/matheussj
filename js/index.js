@@ -24,8 +24,8 @@ whiteSlowly(".apresentacao-titulo","Olá, eu sou o Matheus",100);
 $("#sobre").click(()=>{
 	scrollElement("#section-sobre");
 });
-$("#experiencia").click(()=>{
-	scrollElement("#section-experiencia");
+$("#contato").click(()=>{
+	scrollElement("#section-contato");
 });
 $("#conhecimentos").click(()=>{
 	scrollElement("#section-conhecimento");
