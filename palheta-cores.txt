@@ -5,3 +5,6 @@ da cor da esquerda para a direita
 (138,161,166)
 (164,189,191)
 (2,115,115)
+
+(51,2,10) -> cabeçalho
+(9,109,134) -> sobre

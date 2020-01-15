@@ -1,9 +1,9 @@
 body {
 	background-color: rgb(242,242,242);
-	font-family: 'Open Sans',Arial,sans-serif;
+	font-family: 'Open Sans', arial, sans-serif
 }
 .cabecalho-principal{
-	background: rgb(85,109,115);
+	background: rgb(51,2,10);
 	padding: 25px 0;
 
 }
@@ -39,23 +39,47 @@ body {
 .cabecalho-principal-menu{
 	width: 50%;
 }
+.apresentacao{
+
+}
 .apresentacao .conteiner{
-	width: 90%;
-	margin: 50px auto;
+	height: 600px;
+	width: 100%;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding: 50px  0;
+	background-image:url("../img/fundo-outono.jpg"); 
+	background-color: rgba(0,0,0,0.7);  
+	 object-fit:cover;
+	 -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
 }
-.apresentacao img{
-	width: 200px;
-	height: 250px;
+.apresentacao .conteiner:before{
+	 object-fit:cover;
+	position: absolute;
+	top: 110px;
+	left: 0;
+	width: 100%;
+	height: 600px;
+	content: '';
+	background-color: rgba(0,0,0,0.3); 
+
 }
+
 .apresentacao-titulo{
+	position: relative;
 	font-family: 'Dancing Script', cursive;
 	padding: 10px 0;
-	font-size: 60px;
+	font-size: 100px;
 	font-weight: bold;
+	margin: auto 0;
+	color: rgb(242,242,242);
+
 }
 #menu{
 	margin-top: 0px;
@@ -67,17 +91,37 @@ body {
     bottom: 5%;
 }
 .sobre-principal{
-	
-	justify-content: space-around;
-
-}
-.sobre-principal .conteiner{
-	width: 90%;
 	display: flex;
-	background: rgb(138,161,166);
+	margin: 5px 0;
+	justify-content: space-around;
+	height: 500px;
+}
+.sobre-principal .sobre-img img{
+	margin: 0 5px;
+ 	object-fit:cover;
+	width: 400px;
+	height: 100%;
+}
+.sobre-principal .sobre-img:before{
+	margin: 0 5px;
+ 	object-fit:cover;
+	position: absolute;
+	left: 0;
+	width: 400px;
+	height: 500px;
+	content: '';
+	background-color: rgba(0,0,0,0.2); 
+}
+
+
+.sobre-principal .conteiner{
+	height: 100%;
+	width: 99%;
+	display: flex;
+	background: rgb(9,109,134);
 	margin: 0 auto;
 	justify-content: space-around;
-	padding: 20px 0;
+	
 	
 }
 .sobre-principal .conteiner .sobre-principal-conteudo{
@@ -85,13 +129,14 @@ body {
 	flex-direction: column;
 	justify-content: space-around;
 	width: 70%;
-	align-items: center;
 	text-align: justify;
+	color: rgb(205,211,180);
 }
 .principal-titulo {
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: bold;
 	font-family: 'Roboto', sans-serif;
+	text-align: left;
 }
 /* formatação das sessões de conteudo*/
 .experiencia-principal .conteiner,.formacoes-principal .conteiner{
