@@ -228,7 +228,7 @@ body {
 }
 .links{
 	padding-top:40px; 
-	height: 70%;
+	height: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -238,21 +238,31 @@ display: flex;
 align-items: center;
 }
 .links nav p, a{
-	padding-left: 20px;
+	padding-left:20px;
+}
+.links nav, h1{
+	padding-bottom: 20px;
 }
 .links nav a{
 	text-decoration: none;
 	color: rgb(205,211,180);
-
-
 }
-
 .mapa{
 	margin: 0 5px 0 5px;
-	width: 40%;
+	
 }
 .mapa iframe{
 	height: 100%;
 }
-
-/* fim da formatação das sessões de conteudo*/
+footer{
+	background-color: rgb(51,2,10);
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+footer h1{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+}
