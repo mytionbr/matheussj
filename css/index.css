@@ -140,6 +140,7 @@ body {
 	background-color:rgb(190,208,184); 
 	flex-direction: column; 
 	margin: 5px 0;
+	
 }
 .formacoes-principal .conteiner{
 	display: flex;
@@ -152,6 +153,7 @@ body {
 	
 	width: 25%;
 	text-align: center;
+	transition: all 1s;
 
 }
 .conteiner-formacao{
@@ -166,6 +168,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 	padding: 50px 0 30px 0;
+	
 }
 
 .conteiner-formacao:nth-child(1n+1):hover{
@@ -188,14 +191,9 @@ body {
 }
 .conteiner-formacao:nth-child(1n+3) .titulo-formacao,.conteiner-formacao:nth-child(1n+4) .titulo-formacao{
 	font-size: 18px;
-	
 	font-weight: bold;
 }
-.conteiner-formacao:nth-child(1n+3) .imagem-formacao,.conteiner-formacao:nth-child(1n+4) .imagem-formacao{
-	
-	 
-	
-}
+
 .conteiner-conteudo-formacao{
 	display: flex;
 	flex-direction: column;
@@ -208,4 +206,53 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px; 
 }
+.contato-principal .conteiner{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	margin: 0 5px 5px 5px;
+}
+.informacoes-contatos{
+	background-color:rgb(71,22,88);
+	width: 60%; 
+	color: rgb(205,211,180);
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 0 60px;
+}
+.informacoes-contatos h1{
+	font-size:60px;
+}
+.informacoes-contatos {
+	font-size: 30px
+}
+.links{
+	padding-top:40px; 
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.links nav{
+display: flex;
+align-items: center;
+}
+.links nav p, a{
+	padding-left: 20px;
+}
+.links nav a{
+	text-decoration: none;
+	color: rgb(205,211,180);
+
+
+}
+
+.mapa{
+	margin: 0 5px 0 5px;
+	width: 40%;
+}
+.mapa iframe{
+	height: 100%;
+}
+
 /* fim da formatação das sessões de conteudo*/
