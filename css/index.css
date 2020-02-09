@@ -62,7 +62,7 @@ body {
 .apresentacao .conteiner:before{
 	object-fit:cover;
 	position: absolute;
-	top: 110px;
+	top: 130px;
 	left: 0;
 	width: 100%;
 	height: 600px;
@@ -227,15 +227,15 @@ body {
 	font-size: 30px
 }
 .links{
-	padding-top:40px; 
+	padding-top:50px; 
 	height: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
 .links nav{
-display: flex;
-align-items: center;
+	display: flex;
+	align-items: center;
 }
 .links nav p, a{
 	padding-left:20px;
