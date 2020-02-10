@@ -73,13 +73,13 @@ function criaObjeto(name){
 		html.nome = "HTML";
 		html.img = "img/html.png";
 		html.nivel = "I";
-		html.lista = ["Tags Html5.","Código semântico.","Contrução de páginas.","Tabelas e listas.","BootsTrap."];
+		html.lista = ["Tags Html5.","Código semântico.","Construção de páginas.","Tabelas e listas.","BootsTrap."];
 
 		let css = new Object();
 		css.nome = "CSS";
 		css.img = "img/css.png";
 		css.nivel = "I";
-		css.lista = ["FlexBox.","SubClasses.","BootsTrap.","Responcividade.","Estilização de componentes Html."];
+		css.lista = ["FlexBox.","SubClasses.","BootsTrap.","Responsividade.","Estilização de componentes Html."];
 
 		let js = new Object();
 		js.nome = "JavaScript";
@@ -91,7 +91,7 @@ function criaObjeto(name){
 		jquery.nome = "Jquery";
 		jquery.img = "img/jquery.png";
 		jquery.nivel = "B"; 
-		jquery.lista = ["Seletores.","Manipulação do DOM.","Efeitos."];
+		jquery.lista = ["Seletores.","Manipulação do DOM.","Eventos","Criação e manipulação de elementos","Animações"];
 
 		lista.push(html,css,js,jquery);
 		return lista;
@@ -100,13 +100,13 @@ function criaObjeto(name){
 		java.nome = "Java";
 		java.img = "img/java.png";
 		java.nivel = "I";
-		java.lista = ["Conhecimento das Bibliotecas Java.","Coleções.","Conexão no BD através do Hirbenet.","Orientação a objetos.","Servlet.","Conhecimento de JSF,CDI e JPA.","Conhecimento básico de Spring MVC."];
+		java.lista = ["Conhecimento das Bibliotecas Java.","Coleções.","Conexão no BD através do Hirbenete.","Orientação a objetos.","Servlet.","Conhecimento de JSF,CDI e JPA.","Conhecimento básico de Spring MVC."];
 
 		let mysql = new Object();
 		mysql.nome = "Mysql";
 		mysql.img = "img/mysql.png";
 		mysql.nivel = "B";
-		mysql.lista = ["Criação de um Banco de dados.","Inserção de dados.","Exclução de dados.","Alteração de dados."];
+		mysql.lista = ["Criação de um Banco de dados.","Inserção de dados.","Exclusão de dados.","Alteração de dados."];
 
 		lista.push(java,mysql);
 		return lista;
