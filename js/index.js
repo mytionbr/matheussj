@@ -36,3 +36,6 @@ $("#formacoes").click(()=>{
 $("#btn-subir").click(()=>{
 	scrollElement("#menu");
 });
+$("#portfolio").click(()=>{
+	scrollElement("#section-portfolio");
+});

@@ -37,7 +37,7 @@ body {
 	font-size: 22px;
 }
 .cabecalho-principal-menu{
-	width: 50%;
+	width: 60%;
 }
 .apresentacao{
 
@@ -248,6 +248,7 @@ body {
 	color: rgb(205,211,180);
 }
 .mapa{
+	width: 40%;
 	margin: 0 5px 0 5px;
 	
 }
@@ -266,3 +267,68 @@ footer h1{
 	text-align: center;
 	color: white;
 }
+
+.titulo-sessao-portfolio{
+	padding: 15px;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: initial;
+	padding-left: 60px;
+	
+}
+.portfolio{
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.portfolio .conteiner{
+	width: 98%;
+	display: flex;
+	margin: 5px auto;
+
+}
+.portfolio .conteiner .descricao-portfolio{
+	width: 95%;
+	height: 400px;
+}
+
+.portfolio .conteiner:nth-child(2) .descricao-portfolio{
+	background: rgb(255,203,93);
+	margin-left: 5px; 
+	}
+.portfolio .conteiner:nth-child(3) .descricao-portfolio{
+	background: rgb(143,223,220);
+	margin-right: 5px;
+}
+.portfolio .conteiner:nth-child(4) .descricao-portfolio{
+	background: rgb(243,44,44);
+	margin-left: 5px;
+}
+
+.portfolio .conteiner h1{
+	font-size: 40px;
+	padding: 20px; 
+}
+
+.portfolio .conteiner p{
+	font-size: 16px;
+	padding: 20px; 
+	text-align: justify;
+}
+.portfolio .conteiner img{
+	object-fit:cover;
+	width: 45%;
+	opacity:0.8;
+	transition: all 1s;
+	
+}
+.portfolio .conteiner img:hover
+{
+    opacity:1;
+ }
+
+/*Responsividade*/
+@media only screen and (max-device-width: 900px){
+
+} 
