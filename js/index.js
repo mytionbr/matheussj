@@ -18,8 +18,10 @@ function scrollElement(element) {
 		scrollTop: position
 	},1000);
 }
+setTimeout(function(){ 
+   whiteSlowly(".apresentacao-titulo","Olá, eu sou o Matheus",120);
+}, 11000);
 
-whiteSlowly(".apresentacao-titulo","Olá, eu sou o Matheus",100);
 
 $("#sobre").click(()=>{
 	scrollElement("#section-sobre");
