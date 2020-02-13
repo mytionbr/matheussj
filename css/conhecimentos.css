@@ -159,3 +159,15 @@
 	font-weight: bold;
 	color: rgb(205,211,180);
 }
+/*Responcividade*/
+@media (max-width: 950px){
+	.conhecimentos .conteiner{
+		height: 700px;
+	}
+}
+@media (max-width: 530px){
+	.modal .conteiner{
+		width:400px;
+		height: 500px;
+	}
+}

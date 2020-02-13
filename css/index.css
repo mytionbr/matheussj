@@ -84,13 +84,14 @@ body {
 	display: flex;
 	margin: 5px 0;
 	justify-content: space-around;
-	height: 500px;
+
 }
 .sobre-principal .sobre-img img{
 	margin: 0 5px;
 	object-fit:cover;
 	width: 400px;
-	height: 100%;
+	height: 500px
+	
 }
 /*
 .sobre-principal .sobre-img:before{
@@ -105,7 +106,7 @@ body {
 }
 */
 .sobre-principal .conteiner{
-	height: 100%;
+	height: 500px;
 	width: 99%;
 	display: flex;
 	background: rgb(9,109,134);
@@ -118,6 +119,9 @@ body {
 	width: 65%;
 	text-align: justify;
 	color: rgb(205,211,180);
+	font-family: 'Titillium Web', sans-serif;
+
+
 }
 .principal-titulo {
 	font-size: 50px;
@@ -314,6 +318,7 @@ background: rgb(255,203,93);
 	width: 50%;
 	margin: 10px auto;
 	justify-content: space-around;
+	height: 100%;
 	
 }
 .portfolio-decricao .descricao-texto h2{
@@ -350,6 +355,7 @@ background: rgb(255,203,93);
 
 .flex{
 	display: flex;
+	height: 100%;
 }
 #loading{
 	position: fixed;
@@ -368,6 +374,124 @@ background: rgb(255,203,93);
 	color: white;
 }
 /*Responsividade*/
+.portfolio-img{
+	min-width: 340px;
+}
+.descricao-texto{
+	min-width: 400px;
+}
+.portfolio-decricao{
+	min-width: 457px;
+}
+@media (max-width: 1200px){
+	.portfolio-decricao{
+		height: 1000px;
+	}
+	.flex{
+		flex-direction: column;
+	}
+}
+@media (max-width: 1120px){
+	.portfolio-decricao, .flex{
+		
+	}
+	
+}
+
+
+@media (max-width: 1062px){
+	.cabecalho-principal .conteiner{
+		flex-direction: column;
+	}
+
+	.cabecalho-principal-menu{
+		text-align: center;
+	}
+	#calculadora-depreciacao h1{
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 1070px){
+	.sobre-principal{
+		flex-direction: column;
+	}
+	.sobre-principal .sobre-img{
+		margin: 0 auto;
+	}
+	.sobre-principal{
+		background-color: rgb(205,211,180);
+	}
+}
+@media (max-width: 950px){
+	.cabecalho-principal .conteiner ul{
+		flex-direction: column;
+	}
+	.conteiner .conteiner-itens .lista-menu{
+		flex-direction: column;
+		align-items: center;
+		height: 170px;
+	}
+	.contato-principal .conteiner{
+		flex-direction: column;
+		height: 800px;
+	}
+	.informacoes-contatos, .mapa{
+		width: 100%;
+	}
+	.mapa{
+		height: 100%;
+	}
+
+	
+}
+@media (max-width: 900px){
+
+	.formacoes-principal{
+		height: 1000px;
+	}
+	.formacoes-principal .conteiner{
+		flex-direction: column;
+		height: 800px;
+		
+	}
+	.conteiner-formacao{
+		width: 100%;
+
+	}
+	.conteiner-formacao{
+		height: 880px;
+	}
+	.apresentacao-titulo{
+		font-size: 60px;
+	}
+
+	
+}
+@media (max-width: 800px){
+	#calculadora-depreciacao h1, #aparecida-nutricao h1{
+		font-size: 30px;
+	}
+	#loading h1{
+		font-size: 60px;
+	}
+}
+@media (max-width: 750px){
+	.sobre-principal .conteiner{
+		height: 600px;
+	}
+
+
+}
+@media (max-width: 630px){
+	.informacoes-contatos {
+		font-size: 20px
+
+	}
+	.sobre-principal .conteiner{
+		height: 700px;
+	}
+	}
 @media only screen and (max-device-width: 900px){
 
 } 
