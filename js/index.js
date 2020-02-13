@@ -41,3 +41,6 @@ $("#btn-subir").click(()=>{
 $("#portfolio").click(()=>{
 	scrollElement("#section-portfolio");
 });
+$("#projetos").click(()=>{
+	scrollElement("#section-portfolio");
+});

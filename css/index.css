@@ -115,7 +115,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	width: 70%;
+	width: 65%;
 	text-align: justify;
 	color: rgb(205,211,180);
 }
@@ -182,7 +182,15 @@ body {
 
 .conteudo-texto{
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px; 
+	font-size: 25px; 
+}
+.conteudo-texto a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(250,211,180);
+}
+.conteudo-texto a:hover{
+	text-decoration: underline;
 }
 .contato-principal .conteiner{
 	width: 100%;
@@ -261,6 +269,8 @@ background: rgb(255,203,93);
 }
 #section-portfolio{
 	background: rgb(255,203,93);
+	padding: 10px;
+	margin-bottom: 5px; 
 }
 .portfolio .conteiner{
 	width: 98%;
