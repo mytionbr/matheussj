@@ -138,7 +138,7 @@
 	
 	width:400px;
 	height:400px;
-    background-color: red;
+	background-color: red;
 }
 .fundo{
 	width: 100%;
@@ -159,7 +159,7 @@
 	font-weight: bold;
 	color: rgb(205,211,180);
 }
-/*Responcividade*/
+/*Responsividade*/
 @media (max-width: 950px){
 	.conhecimentos .conteiner{
 		height: 700px;
@@ -170,4 +170,27 @@
 		width:400px;
 		height: 500px;
 	}
+}
+/*Responsividade Mobile*/
+@media (max-width: 450px){
+	.titulo-conhecimento{
+		font-size: 35px;
+	}
+	.conhecimentos .conteiner{
+		width: 100%;
+	}
+	.linhaConhecimento{
+		width: 100%;
+		margin: 10px 0;
+		padding: 10px 0;
+	}
+	.listaConhecimento{
+		width: 95%;
+	}
+	.modal .conteiner{
+		width:350px;
+		height: 450px;
+	}
+
+
 }

@@ -373,16 +373,8 @@ background: rgb(255,203,93);
 	font-size: 100px;
 	color: white;
 }
-/*Responsividade*/
-.portfolio-img{
-	min-width: 340px;
-}
-.descricao-texto{
-	min-width: 400px;
-}
-.portfolio-decricao{
-	min-width: 457px;
-}
+/*Responsividade desktop*/
+
 @media (max-width: 1200px){
 	.portfolio-decricao{
 		height: 1000px;
@@ -391,13 +383,6 @@ background: rgb(255,203,93);
 		flex-direction: column;
 	}
 }
-@media (max-width: 1120px){
-	.portfolio-decricao, .flex{
-		
-	}
-	
-}
-
 
 @media (max-width: 1062px){
 	.cabecalho-principal .conteiner{
@@ -406,6 +391,7 @@ background: rgb(255,203,93);
 
 	.cabecalho-principal-menu{
 		text-align: center;
+		width: 80%;
 	}
 	#calculadora-depreciacao h1{
 		font-size: 40px;
@@ -475,6 +461,14 @@ background: rgb(255,203,93);
 	#loading h1{
 		font-size: 60px;
 	}
+	.informacoes-contatos{
+		padding: 20px 0px;
+		margin: 0;
+	}
+	.contato-principal .conteiner {
+		margin: 5px 0;
+		text-align: center;
+	}
 }
 @media (max-width: 750px){
 	.sobre-principal .conteiner{
@@ -491,7 +485,99 @@ background: rgb(255,203,93);
 	.sobre-principal .conteiner{
 		height: 700px;
 	}
+	.portfolio-img{
+		min-width: 340px;
 	}
-@media only screen and (max-device-width: 900px){
+	.descricao-texto{
+		min-width: 400px;
+	}
+	.portfolio-decricao{
+		min-width: 400px;
+	}
 
-} 
+}
+/*Responsividade Mobile*/
+@media (max-width: 450px){
+	.cabecalho-principal-titulo{
+		font-size: 60px;		
+	}
+	.cabecalho-principal-menu ul{
+		flex-direction: column;
+		font-size: 30px;
+		height: 300px;
+		justify-content: space-around;
+		margin: 20px 0;
+	}
+	.apresentacao .conteiner{
+		height: 470px
+	}
+	.apresentacao-titulo{
+		font-size: 45px;
+	}
+	.sobre-principal .sobre-img{
+		margin: 10px auto;
+	}
+	.sobre-principal .sobre-img img{
+		height: 300px;
+		width: 200px;
+	}
+	.sobre-principal .conteiner{
+		height: 800px;
+	}
+	.principal-titulo{
+		font-size: 50px;
+	}
+	.conteudo-texto{
+		font-size: 20px;
+	}
+	.descricao-texto{
+		width: 266px;
+	}
+	.portfolio-decricao .descricao-texto h2{
+		font-size: 40px;
+
+	}
+	.portfolio-decricao .descricao-texto p,.portfolio-decricao .descricao-texto a{
+		font-size: 16px;
+		text-align: justify;
+		text-decoration: none;
+	}
+	.portfolio-decricao {
+		width: 266px;
+	}
+	.portfolio-img{
+		min-width: 300px;
+	}
+	.descricao-texto{
+		min-width: 320px;
+		text-align: center;
+	}
+	.portfolio-decricao{
+		min-width: 340px;
+	}
+	.informacoes-contatos{
+		font-size: 18px;
+		padding: 20px 0px;
+		margin: 0;
+	}
+	.contato-principal .conteiner {
+		margin: 5px 0;
+		text-align: center;
+	}
+	.button-subir-tela{
+		width: 10px;
+	}
+	.portfolio .conteiner li h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	#calculadora-depreciacao h1, #aparecida-nutricao h1{
+		font-size: 23px;
+
+	}
+	#loading h1 {
+		left: 25px;
+		font-size: 50px;
+	}
+
+}
