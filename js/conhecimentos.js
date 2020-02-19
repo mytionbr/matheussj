@@ -73,25 +73,25 @@ function criaObjeto(name){
 		html.nome = "HTML";
 		html.img = "img/html.png";
 		html.nivel = "I";
-		html.lista = ["Tags Html5.","Código semântico.","Construção de páginas.","Tabelas e listas.","BootsTrap."];
+		html.lista = ["Tags Html5.","Bons conhecimentos da sintaxe.","Código semântico.","Construção de páginas.","Tabelas e Formulários.","Mídias.","BootsTrap."];
 
 		let css = new Object();
 		css.nome = "CSS";
 		css.img = "img/css.png";
 		css.nivel = "I";
-		css.lista = ["FlexBox.","SubClasses.","BootsTrap.","Responsividade.","Estilização de componentes Html."];
+		css.lista = ["FlexBox.","Seletores css.","Posicionamento.","BootsTrap.","Responsividade.","Estilização de componentes Html."];
 
 		let js = new Object();
 		js.nome = "JavaScript";
 		js.img = "img/javascript.png";
 		js.nivel = "B";
-		js.lista = ["Manipulação do DOM.","Seletores.","Bons conhecimentos de Ecmascript 6.","Orientação a objetos."];
+		js.lista = ["Manipulação do DOM.","Seletores.","Sintaxe.","Conhecimentos medianos de Ecmascript 6.","Orientação a objetos."];
 
 		let jquery = new Object();
 		jquery.nome = "Jquery";
 		jquery.img = "img/jquery.png";
 		jquery.nivel = "B"; 
-		jquery.lista = ["Seletores.","Manipulação do DOM.","Eventos","Criação e manipulação de elementos","Animações"];
+		jquery.lista = ["Seletores.","Manipulação do DOM.","Eventos.","Criação e manipulação de elementos.","Animações."];
 
 		lista.push(html,css,js,jquery);
 		return lista;
@@ -100,13 +100,13 @@ function criaObjeto(name){
 		java.nome = "Java";
 		java.img = "img/java.png";
 		java.nivel = "I";
-		java.lista = ["Conhecimento das Bibliotecas Java.","Coleções.","Conexão no BD através do Hirbenete.","Orientação a objetos.","Servlet.","Conhecimento de JSF,CDI e JPA.","Conhecimento básico de Spring MVC."];
+		java.lista = ["Conhecimento medianos das Bibliotecas Java.","Coleções.","Conexão no BD através do Hirbenete.","Orientação a objetos.","Servlet.","Conhecimento medianos de JSF,CDI e JPA.","Conhecimento básico de Spring MVC.","Básico do maven.","Eclipse e netbeans."];
 
 		let mysql = new Object();
 		mysql.nome = "Mysql";
 		mysql.img = "img/mysql.png";
 		mysql.nivel = "B";
-		mysql.lista = ["Criação de um Banco de dados.","Inserção de dados.","Exclusão de dados.","Alteração de dados."];
+		mysql.lista = ["Criação de Bancos de dados.","Inserção de dados.","Exclusão de dados.","Alteração de dados."];
 
 		lista.push(java,mysql);
 		return lista;
