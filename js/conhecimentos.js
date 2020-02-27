@@ -100,7 +100,7 @@ function criaObjeto(name){
 		java.nome = "Java";
 		java.img = "img/java.png";
 		java.nivel = "I";
-		java.lista = ["Conhecimento medianos das Bibliotecas Java.","Coleções.","Conexão no BD através do Hirbenete.","Orientação a objetos.","Servlet.","Conhecimento medianos de JSF,CDI e JPA.","Conhecimento básico de Spring MVC.","Básico do maven.","Eclipse e netbeans."];
+		java.lista = ["Conhecimentos medianos das Bibliotecas Java.","Coleções.","Conexão no BD através do Hirbenete.","Orientação a objetos.","Servlet.","Conhecimento medianos de JSF,CDI e JPA.","Conhecimento básico de Spring MVC.","Básico do maven.","Eclipse e netbeans."];
 
 		let mysql = new Object();
 		mysql.nome = "Mysql";
