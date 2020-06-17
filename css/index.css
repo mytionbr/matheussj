@@ -263,9 +263,7 @@ footer h1{
 	text-align: initial;
 	padding-left: 10%;
 }
-background: rgb(243,44,44);
-background: rgb(143,223,220);
-background: rgb(255,203,93);
+
 .portfolio{
 	width: 100%;
 	flex-direction: column;
