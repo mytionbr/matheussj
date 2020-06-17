@@ -46,6 +46,19 @@ body{
     color: #fff;
     background: #a90eb8;
     box-sizing: border-box;
+    transition: all 1s;
+    
+    
+}
+#my-form input:focus{
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    border: none;
+    padding-left: 10px;
+    color: #a90eb8;
+    background: #fff;
+    box-sizing: border-box;
     
     
 }
@@ -56,6 +69,16 @@ body{
     padding-left: 10px;
     color: #fff;
     background: #a90eb8;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+#my-form textarea:focus{
+    width: 100%;
+    line-height: 20px;
+    border: none;
+    padding-left: 10px;
+    color: #a90eb8;
+    background: #fff;
     box-sizing: border-box;
 }
 #my-form button{
