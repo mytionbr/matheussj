@@ -44,7 +44,7 @@ body{
     border: none;
     padding-left: 10px;
     color: #fff;
-    background: #a90eb8;
+    background: rgb(108, 101, 153);
     box-sizing: border-box;
     transition: all 1s;
     
@@ -68,7 +68,7 @@ body{
     border: none;
     padding-left: 10px;
     color: #fff;
-    background: #a90eb8;
+    background: rgb(108, 101, 153);
     box-sizing: border-box;
     transition: all 1s;
 }
@@ -83,7 +83,7 @@ body{
 }
 #my-form button{
     font-size: 25px;
-    color: #a90eb8;
+    color: rgb(80, 66, 170);
     background-color: cornsilk;
    transition: all 1s;   
    border: none;
@@ -91,7 +91,7 @@ body{
 #my-form button:hover{
     font-size: 25px;
     color: cornsilk;
-    background-color: #a90eb8;
+    background-color: rgb(80, 66, 170);
    transition: all 1s;   
 }
 
@@ -111,4 +111,14 @@ body{
     flex-direction: column;
     justify-content: center;
     
+}
+.conteinerTitulo h1
+{
+ text-shadow: -10px 10px 20px rgba(0, 0, 0, .95);
+ transition: 0.5s;
+}
+.conteinerTitulo h1:hover
+{
+ text-shadow: -1px 1px 0px rgba(0, 0, 0, 1),1px -1px 0px rgb(93, 18, 179);
+ transition: 0.5s;
 }
