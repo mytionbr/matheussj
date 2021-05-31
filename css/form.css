@@ -122,3 +122,21 @@ body{
  text-shadow: -1px 1px 0px rgba(0, 0, 0, 1),1px -1px 0px rgb(93, 18, 179);
  transition: 0.5s;
 }
+
+@media only screen and (max-width: 600px){
+    .conteinerPrincipal{
+        display: flex;
+        flex-direction: column;
+    }
+    #my-form{
+        width: 100%;
+    }
+    #formulario{
+        height: 100%;
+    }
+    .conteinerTitulo{
+        display: flex;
+        width: 100%;
+        text-align: center;     
+    }
+}
